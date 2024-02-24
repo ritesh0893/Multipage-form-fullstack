@@ -62,9 +62,6 @@ const MainForm = () => {
     const titles =["Sign Up", "Personal Info", "WEBSITE Info"]
   return (
     <div className='bg-gradient-to-r from-slate-400 to-green-500 w-full h-full min-h-full flex flex-col justify-center py-36 sm:px-6 lg:px-8 z-100 mf:h-screen'>
-        <div>
-            <div>Progress Bar</div>
-        </div>
         <div className='sm:mx-auto mb-4 sm:w-full sm:max-w-md'>
             <img className="mx-auto h-24 w-auto" src={Logo} alt="/" />
             <h1 className='mt-6 text-center text-2xl font-bold tracking-tight text-green-900'>{titles[page]}</h1>
